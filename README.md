@@ -1,5 +1,7 @@
 # reconnecting-websocket
 
+Resilient web socket that automatically reconnects if the connection is closed.
+
 ## Updating This Package
 
 1. Commit changes to git.
