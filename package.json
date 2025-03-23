@@ -1,0 +1,33 @@
+{
+	"name": "@umerx/reconnecting-websocket",
+	"private": false,
+	"version": "0.0.0",
+	"description": "Reconnecting Web Socket",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"dev": "nodemon --watch './src/*' -e ts,js --exec 'npm run build;'",
+		"prod": "npm run build && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/umerx-github/reconnecting-websocket.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/umerx-github/reconnecting-websocket/issues"
+	},
+	"homepage": "https://github.com/umerx-github/reconnecting-websocket#readme",
+	"devDependencies": {
+		"@types/node": "^20.17.19",
+		"nodemon": "^2.0.22",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.7.3"
+	}
+}
